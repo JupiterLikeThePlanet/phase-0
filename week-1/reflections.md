@@ -44,3 +44,33 @@ If I were going to write instructions for someone on how to create a new repo, t
 But ending it here would be cheating, so allow me to enumerate the steps.  Essentially, I would begin by explaining git and GitHub (probably effusively) and then lead them to the site.  I'd point out that there are 2 ways to create a repo.  The simplest is by clicking the '+' sign next to the user's avatar in the top right corner and selecting new repository.  From there you'd name it, adjust desired settings, and then click create repository.  The second way is to click your profile, hit the repository tab, and select the green button labeled "New" just under the tab to the right.  The rest of the steps are the same as the first method.  Forking a repo is a simple as finding the desire repo and hitting the 'Fork' button seen just below your avatar in the top right corner.  Cloning is the trickier part and after explaining basic CLI commands, I would lead this person to the side bar on the right of the screen of the forked repository and tell them to copy and paste the link "HTTPS clone url".  Press cmmd + space bar (mac users!), enter terminal into the search bar in which your program will be opened.  From there I'd lead the person to the directory of their choice in which to clone the url (e.g. mine is Desktop/DBC/curriculum).  Once there in the CLI, I'd have them type "git clone [url here]" & *whew* , we're done.
 
 I actually didn't have any trouble setting up git or GitHub.  I know, sounds real humble doesn't it?  But I'm not patting myself on the back, I promise.  I had actually setup a GitHub account already, though I never used it because I hadn't quite understood the interface or what to do with it.  So that's where this lesson really came in handy.  This gave me the lesson I failed to give myself at the time I created the account.
+
+# 1.5 Tracking Changes
+
+Tracking changes keep things organized and allows developers to have multiple save points in a program, so let's say in case of an error or bug, we can revert to a previous working state.  Adding changes, especially in a collaborative effort, makes for an effective way for multiple people to work on a program.  Crucial to this is the ability to add changes via branches and not to the master branch itself, so that the additions can be regulated, so to speak, based on their efficacy and functionality without altering the root program.
+
+A commit is a "save point."  As with many things, there are rules for commit messages.  The header should be capitalized and concise (=< 50 characters).  Both the header and body should be in the form of the imperative so as to tell you what the commit does, rather than what the developer did.  The body of the message can go in to detail, if necessary.
+
+The HEAD^ argument takes the developer back to the last commit
+
+A cheat sheet for commit changes are essentially a rundown of the process:
+  * git checkout -b [branch name]
+    creates branch
+  * git status
+    see what's been modified, what is being tracked
+  * git add
+    starts tracking on new files
+    stage changes on tracked files
+  * git commit -m "[commit message]"
+    a snapshot of your changes
+  * git push origin [branch name]
+  * git checkout master or git checkout (branch name)
+    update own branch, switch branches
+  * git pull [file name]
+    runs both git fetch and git merge, merges current branch with another (usually master)
+  * git fetch origin master
+  * get merge origin master
+
+Contributions are submitted by pull requests, the method in which to add a developer's work.  Usually, they'll be working in a separate branch and when ready they git add so the changes to be tracked, create a commit by entering git commit -m 'text', and push the work.  On Github there will appear a pull request bar in which clicking will accept the merge.  Remember to delete the working branch when your finished to keep a clean repo!
+
+Pull requests are preffered by teams because the files/work can be reviewed before added to the program (e.g. make sure it won't adversly affect how it's run).  They can also be reviewed for possible changes and follow up.
