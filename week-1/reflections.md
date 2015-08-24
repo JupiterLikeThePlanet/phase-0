@@ -16,9 +16,9 @@ Some of the more challenging aspects for me is learning how to use the popd and 
 
 I am able to use most commands and I felt like one that will prove important is “grep.” It reminds me of parsing and the .startswith function in Python. The env command seems like it could be important since we can change variables and pathways if needed. Of course, the basics like cd, pwd, .. , & ls seem essential for basic navigation.
 
--pwd print working directory
+-pwd print working directory / tells you the path, where you are at
 
--ls list directory
+-ls list directory / list all contents in directory
 
 -mv “move” or rename a file
 
@@ -30,11 +30,11 @@ I am able to use most commands and I felt like one that will prove important is 
 
 -mkdir make a directory
 
--less page through a file
+-less "page" through a file or read it
 
--rmdir remove directory
+-rmdir remove / delete directory
 
--rm remove a file
+-rm remove / delete a file
 
 -help helps explain commands and functions
 
@@ -84,3 +84,32 @@ Open source allows a developer's code to be seen and used by the public (licensi
 I enjoyed this challenge for the active practive of creating my own branch.  Honestly, not knowing we were going to do that in the following lessons, I went ahead and did this , creating my own repo for a (very basic) program I made in Python.  I'm glad I ended up doing this twice, because I certainly needed the practice.  At this point, it's really about remembering how to do everything.  The information is easy to take in, but takes time to sort and sink.  Rather than "aha" moments, it's more like "Did I remember this correctly?..YES!"  But the points of struggle have been with navigating changes (e.g. HEAD^) and understanding when and where to do the git commit -m method and what exactly it was doing.  With practice, I was able to nail that, but I'm still shakey on the navigating changes and untracking.
 
 When in a bind, I did check StackOverflow (of course) and git-scm.com/.  Those were the two most frequent.  I checked out multiple personal blogs too.
+
+# (Bonus) Web Basics Assignment
+
+Browser: Desktop software that allows us to surf the web. It translates code (like HTML) and makes the website readable and aesthetically pleaseing.
+
+DNS: Domain Name System reads url names and translates it to an IP address that computers understand, pulling web pages from their servers and bringing them to clients.
+
+Domain: Domains are essentially the names of websites (e.g. facebook.com), which are easier to remember than the IP addresses.  The computer will known the IP address from the Domain typed in
+
+Internet: This is essentially the interconnected network of computers or network of networks
+
+IP address: Is the unique number or address that a computer or server has
+
+Web app: dynamic and rely on user interaction, use databases.  (e.g. Youtube, Twitter)
+
+Web server: software that responds to client requests, like to see a web page, and puts together the parts to complete the request, sending it back to the client
+
+Website: static pages that do not change frequently, do not require databases.
+
+World wide web: Surface of the Internet, it's an application that let's us read and interact with web pages
+
+What 2 new things did you learn about the web?
+I learned that there was a difference between the Internet and the Web.  Admittitly, I use the two interchangeabley.  But it makes sense that the two are different.  But also, I learned that sites like Youtube are web apps vs websites. I didn't realize sites were as static as they are, but given the function of web apps, it makes sense that these dynamic pages are something onto themselves.
+
+How did you feel when you saw your web page live?
+I've done my share of web pages in the past, so it wasn't really anything novel for me.
+
+Did you have an "aha" moments or were any concepts solidified?
+I enjoyed going into the basics of how the web actually works.  I've taken CS classes in the past, but a lot of information comes and goes.  This practice was a good refresher for learning how servers and clients interact to bring each other information and display pages.
