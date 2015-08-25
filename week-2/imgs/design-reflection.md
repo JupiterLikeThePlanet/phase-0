@@ -1,4 +1,4 @@
-![Site Map](/Users/bradleyjupiterbaudot/Desktop/DBC/curriculum/phase-0/week-2/imgs/site-map.png "My Site Map")
+![Site Map](/imgs/site-map.png "My Site Map")
 
 # What are the 6 Phases of Web Design?
 
