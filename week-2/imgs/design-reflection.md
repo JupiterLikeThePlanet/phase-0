@@ -1,4 +1,4 @@
-![Site Map](/imgs/site-map.png "My Site Map")
+![Site Map](site-map.png "My Site Map")
 
 # What are the 6 Phases of Web Design?
 
@@ -46,3 +46,5 @@ I actually did a fair amount of reading about UX. I went to a few blogs.  Here's
   (b) http://www.usability.gov/what-and-why/user-experience.html
   (c) http://blog.crazyegg.com/2012/07/24/what-is-user-experience/
 I know that this topic is important and that I will need to incorporate these practices to make myself a better developer, but I did struggle to read through some of it because I did find it tedious.  I wanted to be more interested, and though I was a little, it was hard to keep focus.
+
+But perhaps even more tedious was trying to adjust the Alt Line and add the site map image to my reflection.
