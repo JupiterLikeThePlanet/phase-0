@@ -1,6 +1,6 @@
-![Home Page](../../JupiterLikeThePlanet.github.io/blog/wireframe-index2.png)
+![Home Page](wireframe-index2.png)
 
-![Blog](../../JupiterLikeThePlanet.github.io/blog/wireframe-blog-index.png)
+![Blog](wireframe-blog-index.png)
 
 #What is a wireframe?
 
