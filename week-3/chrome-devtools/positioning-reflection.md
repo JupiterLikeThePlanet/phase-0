@@ -1,4 +1,4 @@
-![Ex.1](ex1.png "Exercise 1")
+![Ex.1](Ex1.png "Exercise 1")
 ![Ex.2](ex2.png "Exercise 2")
 ![Ex.3](ex3.png "Exercise 3")
 ![Ex.4](ex4.png "Exercise 4")
@@ -6,7 +6,7 @@
 ![Ex.6](ex6.png "Exercise 6")
 ![Ex.7](ex7.png "Exercise 7")
 ![Ex.8](ex8.png "Exercise 8")
-![Ex.9](ex9.png "Exercise 9")
+![Ex.9](ex9_DanishFlag.png "Exercise 9")
 
 ##How can you use Chrome's DevTools inspector to help you format or position elements?
 
