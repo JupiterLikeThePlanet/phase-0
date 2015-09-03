@@ -1,0 +1,113 @@
+.column {
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+}
+
+/* Center Heading */
+
+p span{
+  display:block;
+}
+
+#biggest {
+  font: 50px;
+}
+
+/*
+h3 {
+  display: block;
+  font-weight:bold;
+}
+*/
+
+
+html {
+  background-color: #ffffff;
+}
+
+p {
+   color: #000080;
+}
+
+
+a:link {
+  color: #800080;
+}
+
+a:visited {
+  color:#ff0000;
+}
+
+/*
+li {
+  column-count: 2;
+}
+*/
+
+body:first-child{
+  line-break:auto;
+}
+
+/* Center Geico image */
+img {
+  align:center;
+}
+
+/* Create Horizontal line */
+.hline {
+  width=100%; height:1px; background-color: black;
+}
+/*
+(1)What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+It would be important to know:
+  a) where the stylesheet is saved and where to link to it
+  b) whether the selectors you need for your HTML elements are saved to the .css file.
+  c) the branching of elements relative to selectors, classes, id's etc. that will be linked to.
+
+
+(2)What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+I found I could use 2 different methods:
+  a) hmtl syntax: <element align="value">
+  b) css syntax: display: value
+It depends on the amount of code being used on particular elements.  If using the above simple syntax, fine.  However, the more elements, the more selectors...well, it can get confusing and things might counteract each other.
+
+
+(3)What CSS did you use to modify the element style (like size, color, etc.)
+  a) display
+  b) font-weight
+  c) background-color
+  d) column-count
+  e) align
+
+(4)Did you modify the HTML to include classes or ids? If so, which did you chose and why?
+
+I included a class in order to create the 2 columns:
+
+  CSS:
+    .column {
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+      }
+  HTML:
+    <ul class="column">
+
+And another for creating a horizontal line:
+
+  CSS:
+    .hline {
+      width=100%; height:1px; background-color: black;
+    }
+
+  HTML:
+    <div class="hline"></div>
+
+
+(5)When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+I don't think I'm far enough along to say , however, I wondered if their code was older.   It certainly was busy and hard to read in places.  And for that last sentence alone, I do not think it followed best practices.  It's indentations were definetely lacking.
+
+*/
