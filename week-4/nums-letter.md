@@ -75,6 +75,8 @@ It was good to breeze over this stuff to be certain how well I knew it. It was q
 
 #Challenge Solution Links
 
-    (1) https://github.com/JupiterLikeThePlanet/phase-0/blob/master/week-4/defining-variables.rb
+    (1) [Defining Variables](https://github.com/JupiterLikeThePlanet/phase-0/blob/master/week-4/defining-variables.rb)
 
-    (2) https://github.com/JupiterLikeThePlanet/phase-0/blob/master/week-4/simple-string.rb
+    (2) [Simple String Methods](https://github.com/JupiterLikeThePlanet/phase-0/blob/master/week-4/simple-string.rb)
+
+    (3) [Local Variables & Basic Arithmetical Operations](https://github.com/JupiterLikeThePlanet/phase-0/blob/master/week-4/basic-math.rb)
