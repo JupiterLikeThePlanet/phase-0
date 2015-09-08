@@ -74,3 +74,7 @@ Local variables are those declared in on a local scope in a block:
 It was good to breeze over this stuff to be certain how well I knew it. It was quite simple though as I have had previous programming experience.
 
 #Challenge Solution Links
+
+    (1) https://github.com/JupiterLikeThePlanet/phase-0/blob/master/week-4/defining-variables.rb
+
+    (2) https://github.com/JupiterLikeThePlanet/phase-0/blob/master/week-4/simple-string.rb
