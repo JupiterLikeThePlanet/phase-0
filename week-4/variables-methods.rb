@@ -1,4 +1,3 @@
-=begin
 puts "What is your first name?"
 first = gets.chomp
 
@@ -9,7 +8,7 @@ puts "What is your last name"
 last = gets.chomp
 
 puts "Hello, " + first + " "+ middle +" "+ last + ".  That is a fine name, by the way."
-=end
+
 puts "What is your favorite number?"
 num1 = gets.chomp
 num2 = num1.to_i+1
@@ -26,6 +25,7 @@ def method (argument)
   body
 end
 
+But if you're asking for an actual definition, I would say its an action to be executed, most often upon an object
 
 (3) What is the difference between a local variable and a method?
 A method generally is a short hand to execute many lines of code in a simple way.  A local variable is generally used to store a value (be it int, float, string).
