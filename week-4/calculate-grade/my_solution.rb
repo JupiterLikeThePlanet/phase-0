@@ -4,17 +4,16 @@
 
 def get_grade(num)
   if num >= 90
-    puts 'A'
+    return 'A'
   elsif num >= 80 and num <= 89
-    puts 'B'
+    return 'B'
   elsif num >= 70 and num <= 79
-    puts 'C'
+    return 'C'
   elsif num >= 60 and num <= 69
-    puts 'D'
-  elsif num < 60
-    puts 'F'
+    return 'D'
+  else num < 60
+    return 'F'
   end
 end
 
 
-# Your Solution Below
