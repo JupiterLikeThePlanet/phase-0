@@ -48,7 +48,6 @@ def mode (array)
   max_val = count.max_by{|key,val| val} [1]
   #select from the k/v pair of count the val=max, by the keys
   count.select {|key,val| val == max_val}.keys
-
 end
 
 
