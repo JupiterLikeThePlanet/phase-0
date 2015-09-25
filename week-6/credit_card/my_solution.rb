@@ -89,5 +89,20 @@ end
 
 
 
-
+=begin
 # Reflection
+(1) What was the most difficult part of this challenge for you and your pair?
+
+Understading the use of .each_with_index method and how to retain the changes within variables across multiple lines of code
+
+
+(2) What new methods did you find to help you when you refactored?
+
+.each_with_index method
+
+(3) What concepts or learnings were you able to solidify in this challenge?
+
+I really got a handle on the .each_with_index method and using multiple variables to retain changes and continue manipulating the information within them
+
+
+=end
