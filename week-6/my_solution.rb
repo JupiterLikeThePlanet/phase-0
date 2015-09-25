@@ -46,16 +46,14 @@ end
 # Refactored Solution
 
 class Die
+  attr_reader :sides
+
   def initialize(labels)
     if labels == []
       raise ArgumentError.new ("Please enter elements in an array")
     else
-      return @labels = labels
+      @labels = labels
     end
-    sides
-  end
-
-  def sides
     @sides = @labels.length
   end
 
