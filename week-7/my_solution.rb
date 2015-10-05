@@ -1,6 +1,6 @@
 # Virus Predictor
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge [with: Eunice Choi].
 # We spent [#] hours on this challenge.
 
 # EXPLANATION OF require_relative
@@ -22,12 +22,20 @@ class VirusPredictor
   end
 
   def states
+    @states = STATE_DATA.keys
     @states.each do |state|
-      state
+      puts state
 
 #     state = STATE_DATA.keys
 
+# @state = VirusPredictor.new(STATE_DATA.keys, STATE_DATA.keys[:population_density], STATE_DATA.keys[:population])
+# STATE_DATA.keys.virus_effects
+
+# alabama = VirusPredictor.new("Alabama", STATE_DATA["Alabama"][:population_density], STATE_DATA["Alabama"][:population])
+# alabama.virus_effects
+    end
   end
+
 
   private
 
@@ -81,8 +89,8 @@ end
 
 #
 
-# alabama = VirusPredictor.new(STATE_DATA.keys, STATE_DATA["Alabama"][:population_density], STATE_DATA["Alabama"][:population])
-# alabama.virus_effects
+@states = VirusPredictor.new(STATE_DATA.keys, STATE_DATA.keys[:population_density.to_i], STATE_DATA.keys[:population.to_i])
+@states.virus_effects
 
 # alabama = VirusPredictor.new("Alabama", STATE_DATA["Alabama"][:population_density], STATE_DATA["Alabama"][:population])
 # alabama.virus_effects
@@ -97,7 +105,7 @@ end
 # alaska.virus_effects
 
 
-#=======================================================================
+=begin
 # Reflection Section
 
 (1)What are the differences between the two different hash syntaxes shown in the state_data file?
@@ -113,6 +121,5 @@ end
 
 
 (5)What concept did you most solidify in this challenge?
-
 
 =end
