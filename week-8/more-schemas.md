@@ -1,9 +1,9 @@
-![European Languages](../imgs/european_languages.png)
+![European Languages](imgs/european_languages.png)
 
 # One-to-One relationship
 From how it's explained, it seems you take one detail from a table and link it to another table that expounds upon the details of that one piece of data. In my example, the linked details probably won't be as unique as it should be, but I imagine the ideal way you'd want it is that the expounded information (in foreign key) is much more singular to the linked column (the primary key).
 
-![Language and Region](../imgs/language_and_region.png)
+![Language and Region](imgs/language_and_region.png)
 
 # Many-to-Many relationship
 I KNOW! I KNOW!  It should be a grocery list, but this graph is the same in spirit. I used this because I knew how to break this down into tables of 4 categories and join them.
