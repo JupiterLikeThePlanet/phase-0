@@ -54,7 +54,7 @@ $(img).on('mouseout', 'function(e)') {
 });
 
 
-/* NOTE
+/* NOTE ^^^^^^^^^^^^^^^^^^^^
 My loaner computer for some reason will open html in browser but the contents are always empty.  This has my ability to 
 do the last release properly sans partner.  
 
